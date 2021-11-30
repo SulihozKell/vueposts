@@ -28,7 +28,7 @@ export default {
         },
         Save() {
             this.edit = false
-            this.$emit("selected-post-changed", {
+            this.$emit("selected-title-changed", {
                 original: this.post,
                 new: {
                     title: this.title

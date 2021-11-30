@@ -16,7 +16,8 @@ export default {
     components: {PostItem},
     methods: {
         Changed(e) {
-            this.$emit("selected-post-changed", e)
+            this.$emit("selected-title-changed", e)
+            this.$emit("selected-body-changed", e)
         }
     }
 }

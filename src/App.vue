@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Post :posts="posts" />
+    <Post :posts="posts" @selected-post-changed="Changed"/>
   </div>
 </template>
 
